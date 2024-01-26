@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe by Nandish BS</title>
+    <link rel="stylesheet" href="ttt.css">
+</head>
+<body>
+    
+    <!-- for heading -->
+    <div id="hdcontainer">
+        <h1>TIC TAC TOE</h1><br>
+        <!-- <h1 style="color: red;">TIC </h1>
+        <h1>TAC </h1>
+        <h1 style="color: rgb(0, 255, 0);">TOE</h1>
+        <br> -->
+        <P id="hdpara">the game of... </P>
+        <h2 style="color: rgb(0, 255, 0);">O</h2>
+        <h2> &</h2>
+        <h2 style="color: rgb(255, 0, 0);">X</h2>
+    </div>
+
+    <!-- for messsage display -->
+    <div id="msgcontainer">
+        <p id="msg" class="makegreen">Player O's turn.</p>
+    </div>
+
+    <!-- for game box -->
+    <div id="gamecontainer">
+        <table id="gamebox">
+            <tr>
+                <td class="tiles"> </td>
+                <td class="tiles"> </td>
+                <td class="tiles"> </td>
+            </tr>
+            <tr>
+                <td class="tiles"> </td>
+                <td class="tiles"> </td>
+                <td class="tiles"> </td>
+            </tr>
+            <tr>
+                <td class="tiles"> </td>
+                <td class="tiles"> </td>
+                <td class="tiles"> </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- for restart game / new game -->
+    <div id="restartcontainer">
+        <button id="restartbutton" onclick="location.reload()">RESTART</button>
+    </div>
+
+    <div id="documentcontainer">
+        <p class="document">developed by </p>
+        <p class="document">Nandish BS </p>
+        <p class="document">, "4UB21CS032" </p>
+        <p class="document">, CS&E </p>
+        <p class="document">, UBDT College of Engineering</p>
+    </div>
+    <script src="ttt.js"></script>
+</body>
+</html>

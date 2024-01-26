@@ -1,0 +1,110 @@
+/* styling heading container */
+
+body{
+    background-color: #1d2121;
+    color: #F6F8FF;
+}
+
+#hdcontainer{
+    text-align: center;
+}
+h1{
+    display:inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 300%;
+}
+#hdpara{
+    display: inline;
+    font-family:cursive;
+    font-size: 130%;
+}
+h2{
+    display:inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+}
+
+#msgcontainer{
+    margin-left: 20%;
+    
+}
+
+#msg{
+    font-size: 200%;
+    font-family:cursive;
+}
+
+#gamecontainer{
+    margin-bottom: 30px;
+}
+
+#gamebox{
+    border: 3px solid wheat;
+    margin-left:auto;
+    margin-right: auto;
+    border-spacing: 5px;
+    border-radius: 5px;
+}
+
+.tiles{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color:#F6F8FF;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    font-size: 70px;
+}
+
+#restartcontainer{
+    text-align: center;
+}
+
+#restartbutton{
+    background-color: rgb(112, 0, 120);
+    border: 1px solid  rgb(63, 1, 69);
+    font-size: 16px;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ifO{
+    color: rgb(0, 104, 0);
+}
+
+.ifX{
+    color: red;
+}
+
+.makegreen{
+    color: rgb(0, 255, 0);
+}
+
+.makered{
+    color: red;
+}
+
+.winnergreen{
+    background-color: rgb(131, 198, 131);
+}
+.winnerred{
+    background-color:rgb(250, 150, 150)
+}
+
+.document{
+    display: inline;
+    font-size: 11px;
+    font-family: cursive;
+    text-align: end;
+}
+
+#documentcontainer{
+    margin-top: 30px;
+    text-align: end;
+}
